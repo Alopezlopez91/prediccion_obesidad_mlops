@@ -202,11 +202,13 @@ obesity-ml-cloud-api/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
+│   └── config.py
 │   ├── predictor.py
 │   └── schemas.py
 │
 ├── training/
 │   └── train.py
+│   └── evaluate.py
 │
 ├── tests/
 │   └── test_api.py
@@ -225,6 +227,10 @@ obesity-ml-cloud-api/
 │
 ├── Dockerfile
 ├── docker-compose.yml
+├── dockerignore
+├──.env.example
+├── Procfile
+├── pyproject.toml
 ├── requirements.txt
 ├── README.md
 └── .gitignore
